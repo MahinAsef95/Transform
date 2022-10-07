@@ -1,0 +1,48 @@
+
+*{
+
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* transition: 3s; */
+
+    padding: 100px 20px; 
+}
+
+.row .country{
+
+    padding: 10px;
+    flex: 25%;
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+    margin: 5px;
+    transition: 3s;
+}
+
+.country1:hover{
+
+    background-color: green;
+    transform: scale(1.5);
+}
+
+.country2:hover{
+    background-color: blue;
+    transform: rotate(360deg);
+}
+
+.country3:hover{
+    background-color: red;
+    transform: skew(-30deg);
+}
+
+.country4:hover{
+
+    background-color: yellow;
+    transform: translate(0px, 100px);
+}
